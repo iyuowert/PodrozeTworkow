@@ -18,7 +18,7 @@ body {
     align-items: center;
 }
 
-a {
+a, .link-button {
     padding: 30px 60px;
     background-color: black;
     color: white;
@@ -28,7 +28,13 @@ a {
     transition: background-color 0.3s, color 0.3s;
 }
 
-a:hover {
+a:hover, .link-button:hover {
     background-color: #333333;
     color: #ffffff;
+}
+
+.link-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
